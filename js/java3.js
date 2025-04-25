@@ -93,7 +93,7 @@ document.querySelector("#forrest").addEventListener("mouseout", function() {
 })
 
 
-document.querySelector("#mov2").addEventListener("click", function() {
+document.querySelector("#mov1").addEventListener("click", function() {
 	
 	
 	if (document.querySelector("#mov1").textContent == "Show More"){

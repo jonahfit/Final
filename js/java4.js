@@ -138,7 +138,7 @@ document.querySelector("#mus2").addEventListener("click", function() {
 	else{
 		
 		console.log("hiding tv rank");
-		document.querySelector("#mus1").textContent = "Show More"
+		document.querySelector("#mus2").textContent = "Show More"
         document.querySelector("#posty2").style.display = "none";
 	}
 	

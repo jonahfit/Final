@@ -199,14 +199,14 @@ document.querySelector("#tv4").addEventListener("click", function() {
 
 });
 
-document.querySelector("#tv1").addEventListener("click", function() {
+document.querySelector("#tv5").addEventListener("click", function() {
 	
 	
-	if (document.querySelector("#tv1").textContent == "Show More"){
+	if (document.querySelector("#tv5").textContent == "Show More"){
 
 		
 		console.log("showing tv rank");
-		document.querySelector("#tv1").textContent = "Show Less"
+		document.querySelector("#tv5").textContent = "Show Less"
 
         document.querySelector("#bcs2").style.display = "block";
 
@@ -214,7 +214,7 @@ document.querySelector("#tv1").addEventListener("click", function() {
 	else{
 		
 		console.log("hiding tv rank");
-		document.querySelector("#tv1").textContent = "Show More"
+		document.querySelector("#tv5").textContent = "Show More"
         document.querySelector("#bcs2").style.display = "none";
 	}
 	
