@@ -25,45 +25,100 @@
         
 
     </header>
+
     <main id = "main">
-        
-        <h1 class = "title" tabindex="0">Movie Ranking</h1>
-        <div class = "intro" >
-            <p tabindex="0">Below are my Movie Rankings!</p>
+        <div class = "MovIntroGrid">
+        <h1 class = "title mov" tabindex="0">Movie Ranking</h1>
+        <div class = "intro mov" >
+            <p tabindex="0">Below are my Movie Rankings! Hover on each movie to see a picture, and then click on show more to learn more about why it is ranked where it is, along with a clip of my favorite scene!</p>
 
         </div>
-    
+    </div>
+<br>
+<br>
+<div class = "MovHoverImage">
+    <img tabindex="0" class = "moviepic" src="img/miracle.jpg" alt="movie photo">
 
+</div>
+<br>
+<br>
         <div class = "content extra" id = "list">
 
         
 
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#1: Miracle</a></h2>>
-                <p>This is my favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class = "mov num1" id = "Mir">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0349825/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_miracle">#1: Miracle</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "mov1">Show More</button>
 
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#2: LaLa Land</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class = "mov num2" id = "lalaland">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt3783958/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_lala%2520land">#2: LaLa Land</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "mov2">Show More</button>
 
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#3: Cars</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class = "mov num3" id = "carrr">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0317219/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_cars">#3: Cars</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "mov3">Show More</button>
 
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#4: Get Out</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class = "mov num4" id = "gout">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt5052448/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_get%2520out">#4: Get Out</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "mov4">Show More</button>
 
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#5: Forest Gump</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class = "mov num5" id = "forrest">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0109830/?ref_=nv_sr_srsg_1_tt_5_nm_2_in_0_q_forrest%2520gu">#5: Forrest Gump</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "mov5">Show More</button>
 
             </div>
+        
+        </div>
 
+        <div class = "showingmore" id = "mir2">
+            <h3>Miracle</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/47kUqAs97-s?si=vYDy0cuyDhYvH8bq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "lala2">
+            <h3>Lala Land</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_1nSBXORzdM?si=_aciVjHTJtZv53nN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "cars2">
+            <h3>Cars</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tbAcQPvtgf0?si=s1cxTMbO64UdLwCj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "gout2">
+            <h3>Get Out</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iVJLXCTUPVA?si=exnQyFinZsUH5Eea" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "gump2">
+            <h3>Forrest Gump</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_4B63QRIO5Q?si=K9W7Duj-NmKzQt4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
 
 
            
@@ -71,14 +126,14 @@
 
            
     </main>
-    
+    <br>
+    <br>
     <footer>
-        <p>Jonah FitzGerald | <a href="jonahfit.myportfolio.com">Link to my portfolio </a></p>
-        <br>
-        <p>© Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
+        <p>Jonah FitzGerald | <a href="http://jonahfit.myportfolio.com">Link to my portfolio | </a> © Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
         </footer>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
             </script>
+    <script src="js/java3.js"></script>
 </body>
 </html>

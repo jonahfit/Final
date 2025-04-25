@@ -27,58 +27,111 @@
     </header>
     <main id = "main">
         
-        <h1 class = "title" tabindex="0">TV Shows Ranking</h1>
-        <div class = "intro" >
-            <p tabindex="0">Below are my TV Show Rankings!</p>
+        <div class = "TvIntroGrid">
+        <h1 class = "title tv" tabindex="0">TV Shows Ranking</h1>
+        <div class = "intro tv" >
+            <p tabindex="0">Below are my TV Show Rankings! Hover on each show to see a picture, and then click on show more to learn more about why it is ranked where it is, along with a clip of my favorite scene!</p>
 
         </div>
-    
+        </div>
 
+<br>
+<br>
+
+<div class = "TVHoverImage">
+    <img tabindex="0" class = "tvpic" src="img/bb1.jpg" alt="tv show photo">
+
+</div>
+<br>
+<br>
         <div class = "content extra" id = "list">
 
         
 
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#1: Breaking Bad</a></h2>>
-                <p>This is my favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
+            <div class ="tv num1" id = "bb">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0903747/">#1: Breaking Bad</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "tv1">Show More</button>
 
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#2: Succession</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
-
+            <div class = "tv num2" id = "ss">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt7660850/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_succes">#2: Succession</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "tv2">Show More</button>
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#3: The Sopranos</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
-
+            <div class = "tv num3" id = "Sopr">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0141842/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_sopran">#3: The Sopranos</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "tv3">Show More</button>
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#4: Game of Thrones</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
-
+            <div class = "tv num4" id = "GoT">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_game%2520of%2520thr">#4: GoT</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info"></p>
+                <button class = "ShowMore" id = "tv4">Show More</button>
             </div>
-            <div>
-                <h2 tabindex="0"><a href="https://sites.google.com/umich.edu/umsitutoring/home">#5: Better Call Saul</a></h2>>
-                <p>This is my second favorite show ever! asdfasdfasdf. Hover on the scenes below to see pictures from them</p>
-
+            <div class = "tv num5" id = "BCS">
+                <h2 tabindex="0"><a href="https://www.imdb.com/title/tt3032476/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_better%2520call">#5: BCS</a></h2>
+                <!-- <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah"> -->
+                <p class = "info" ></p>
+                <button class = "ShowMore" id = "tv5">Show More</button>
             </div>
 
+        
+        </div>
 
-
-           
-
+        
+        <div class = "showingmore" id = "bb2">
+            <h3>Breaking Bad</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MybaTnzu9AA?si=rMgKP9Pi1sjJ9uUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "ss2">
+            <h3>Succession</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/es17PtDeHRU?si=TsEq4Si2BgDBFGk7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "sopr2">
+            <h3>The Sopranos</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JzKpfBK4Noo?si=E9z5JOi7KP-K0TR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "got2">
+            <h3>Game of Thrones</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zrfBcB_2itU?si=fjuj9oDIzL1wuntq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        <div class = "showingmore" id = "bcs2">
+            <h3>Better Call Saul</h3>
+            <p>This is my favorite show of all time. Here is my favorite scene where the main villain dies. Sorry for the spoilers.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DvkYRhu-TP0?si=_ll2z0LteBZ49MZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+        </div>
+        
 
            
     </main>
-    
+    <br>
+            <br>
     <footer>
-        <p>Jonah FitzGerald | <a href="jonahfit.myportfolio.com">Link to my portfolio </a></p>
-        <br>
-        <p>© Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
+
+        <p>Jonah FitzGerald | <a href="http://jonahfit.myportfolio.com">Link to my portfolio | </a> © Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
         </footer>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
             </script>
+    <script src="js/java2.js"></script>
 </body>
 </html>

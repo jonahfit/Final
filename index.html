@@ -26,26 +26,27 @@
 
     </header>
     <main id = "main">
-        <img tabindex="0" class = "headshot1" src="" alt="headshot of Jonah">
+        <img tabindex="0" class = "headshot1" src="img/headshot.jpg" alt="headshot of Jonah">
+        <div class = "grid1">
         <h1 class = "title" tabindex="0">Introduction</h1>
         <div class = "intro" >
             <p tabindex="0">Hello! My name is Jonah FitzGerald and this is my final project for the class SI 339! For this project, I decided to make a website showcasing some of my favorite things. I have made three pages, one for my favorite TV Shows, one for my favorite movies, and one for my favorite musical artists. You can select the buttons below to see my rankings, and then go to each individual page to read more about why these are my favorites! </p>
 
         </div>
-        <div class = "grid">
+        
 
-        <div class = "content extra" id = "list">
+        <div class = "rankings1" id = "list">
 
         
 
             <h2 tabindex="0">Rankings</a></h2>>
-            <div>
-                <button>TV Show Rankings</button>
-                <button>Movie Rankings</button>
-                <button>Music Artist Rankings</button>
+            <div class = "buttons">
+                <button id = "tvbutton">Show TV Show Rankings</button>
+                <button id = "movbutton">Show Movie Rankings</button>
+                <button id = "musbutton">Show Music Artist Rankings</button>
             </div>
             
-            <div id = "tvrank">
+            <div class = "introrank" id = "tvrank">
                 <h3>TV Show Rankings</h3>
                 <ol>
                     <li>Breaking Bad</li>
@@ -54,47 +55,47 @@
                     <li>Game of Thrones</li>
                     <li>Better Call Saul</li>
                 </ol>
-                <p><a href = ""></a>Learn more</p>
+                <p><a href = "TV.html">Learn more</a></p>
                 <p>Click on the learn more link above to see why I have each ranking where it is!</p>
             </div>
 
-            <div id = "movrank">
+            <div class = "introrank" id = "movrank">
                 <h3>Movie Rankings</h3>
                 <ol>
-                    <li>Breaking Bad</li>
-                    <li>Succession</li>
-                    <li>The Sopranos</li>
-                    <li>Game of Thrones</li>
-                    <li>Better Call Saul</li>
+                    <li>Mircale</li>
+                    <li>La La Land</li>
+                    <li>Cars</li>
+                    <li>Get Out</li>
+                    <li>Forrest Gump</li>
                 </ol>
-                <p><a href = ""></a>Learn more</p>
+                <p><a href = "Movie.html">Learn more</a></p>
                 <p>Click on the learn more link above to see why I have each ranking where it is!</p>
             </div>
 
-            <div id = "MusicRank">
+            <div class = "introrank" id = "MusicRank">
                 <h3>Music Artist Rankings</h3>
                 <ol>
-                    <li>Breaking Bad</li>
-                    <li>Succession</li>
-                    <li>The Sopranos</li>
-                    <li>Game of Thrones</li>
-                    <li>Better Call Saul</li>
+                    <li>Kid Cudi</li>
+                    <li>Post Malone</li>
+                    <li>Clairo</li>
+                    <li>070 Shake</li>
+                    <li>Zach Bryan</li>
                 </ol>
-                <p><a href = ""></a>Learn more</p>
+                <p><a href = "Music.html">Learn more</a></p>
                 <p>Click on the learn more link above to see why I have each ranking where it is!</p>
             </div>
 
-
+        </div>
            
     </main>
-    
+  <br>
+  <br>
     <footer>
-        <p>Jonah FitzGerald | <a href="jonahfit.myportfolio.com">Link to my portfolio </a></p>
-        <br>
-        <p>© Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
+        <p>Jonah FitzGerald | <a href="http://jonahfit.myportfolio.com">Link to my portfolio | </a> © Copyrights <span id="year"></span> by Jonah FitzGerald. All rights reserved.</p>
         </footer>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
             </script>
-</body>
+     <script src="js/java.js"></script>
+</body>  
 </html>
